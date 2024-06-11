@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Envelope + Letter (Open/Close on Click)</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>Dear Princess</strong>
+                        <p>
+                            dkho ye baat toh you also know ki m tujhse milne ke liye aur tujhe paane ke liye hdd bhi paar kr skta
+                            bss vo aaj thoda hogya aaj
+                            yrr m literally tras gya tha milne ke liye toh mere dimag m kch ni aaya mne bss soch liya tha milkr hi rhunga 
+                            chahe kch hojaye ab m ziddi toh hu hi toh sir se ldliya mood khrb krliya fir m andar wale room m chla gya kch der tk bhr nhi aya 
+                            fir sid aya merko bulane tb bhi nhi gya uske sir aaye bhr bulane aur phle toh sir ne fan on kiya kyuki m adhe ghnte se grmi m baitha tha mood khrb krke 
+                            fir sir ne pucha ab kya hua bol toh diya aajayegi ghr bula rha koi dikkt nhi aayegi mne kha ki ghr ke bhr milna h merko fir m thoda sa aur lda sir se thodi nautanki aur di fir pura roya fir finally sir maan gye toh ab youre coming at sir's tomorrow final fir aage ka plan vhi btata
+                            and i'm really sorry if rudely kch bola ho toh
+                            I love you❤️
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+        });
+    </script>
+</body>
+</html>
